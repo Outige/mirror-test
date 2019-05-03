@@ -1,13 +1,18 @@
+import java.util.Scanner;
+
 public class PracTest2 {
 
     public static void main(String[] args) {
-        /*
-        * TODO Your code goes here. You may add extra methods or Java files
-        * if you think it's necessary, but your code must compile when you
-        * run 
-        * $ javac PracTest2.java 
-        * and must run with 
-        * $ java PracTest2 < input
-        * */
+    	Scanner sc = new Scanner(System.in);
+    	int[] set = {1, 2, 3};
+    	int number = 2;
+    	Recursion r = new Recursion();
+    	Recursion.summer(number, set);
+    	System.out.println(Recursion.getSum());
+//    	String line = sc.nextLine();
+//    	while (line != null) {
+//			line = sc.nextLine();
+//			
+//		}
     }
 }
